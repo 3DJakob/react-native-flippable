@@ -1,0 +1,28 @@
+{
+  "name": "react-native-flippable",
+  "version": "0.1.0",
+  "description": "A npm react-native package for making any element flippable using gestures.",
+  "main": "index.js",
+  "author": "Jakob Unnebäck",
+  "license": "MIT",
+  "types": "./index.d.ts",
+  "peerDependencies": {
+    "@react-spring/native": "^9.5.4",
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "keywords": [
+    "flippable",
+    "card",
+    "flip",
+    "turn",
+    "side",
+    "back",
+    "animated",
+    "spring",
+    "swipeable",
+    "swipe",
+    "physics",
+    "drag",
+    "draggable"
+  ]
+}
