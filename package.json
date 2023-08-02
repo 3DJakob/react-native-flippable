@@ -2,6 +2,7 @@
   "name": "react-native-flippable",
   "version": "0.1.0",
   "description": "A npm react-native package for making any element flippable using gestures.",
+  "repository": "3DJakob/react-native-flippable",
   "main": "index.js",
   "author": "Jakob Unnebäck",
   "license": "MIT",
