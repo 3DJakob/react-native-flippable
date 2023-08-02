@@ -6,9 +6,12 @@
   "main": "index.js",
   "author": "Jakob Unnebäck",
   "license": "MIT",
+  "scripts": {
+    "test": "standard && ts-readme-generator --check"
+  },
   "types": "./index.d.ts",
   "peerDependencies": {
-    "@react-spring/native": "^9.5.4",
+    "@react-spring/native": "^9.7.3",
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
   "keywords": [
@@ -27,6 +30,7 @@
     "draggable"
   ],
   "devDependencies": {
-    "standard": "^17.1.0"
+    "standard": "^17.1.0",
+    "ts-readme-generator": "^0.7.3"
   }
 }
