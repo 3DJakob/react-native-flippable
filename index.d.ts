@@ -2,11 +2,11 @@ import React from 'react'
 
 interface API {
   /**
-   * Programmatically trigger a flip to the left
+   * Programmatically trigger a flip to the left.
    */
   flipLeft: () => void
   /**
-   * Programmatically trigger a flip to the right
+   * Programmatically trigger a flip to the right.
    */
   flipRight: () => void
 }
@@ -17,7 +17,7 @@ interface Props {
   /**
    * The children to be flipped. The first child will be the front, the second child will be the back.
    */
-  children: React.ReactNode[]
+  children: React.ReactNode
   /**
    * If the card should be flipped if the user taps on it.
    */
